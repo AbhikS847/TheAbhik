@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bcb3ada139.js" crossorigin="anonymous"></script>
+    <title>The Abhik</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#" id="text_color_Main">The Abhik</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto px-5">
+      <li class="nav-item active">
+        <a class="nav-link px-5 text-primary" href="home.html"><i class="fas fa-home pr-2"></i>Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-5 text-secondary" href="gallery.html"><i class="fas fa-photo-video pr-2"></i>Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-5 text-secondary" href="projects.html"><i class="fas fa-briefcase pr-2"></i>Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-5 text-secondary" href="contact.html"><i class="far fa-envelope pr-2"></i>Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search something...." aria-label="search">
+      <button class="btn btn-outline-primary my-2 my-sm-0 text-center justify-content:" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Jumbo/Jumbo1.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Ready to</h2>
+          <p>Bring you content for PC, mobile and web</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Jumbo/Jumbo2.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <button type="button" class="btn btn-light text-primary">Explore Gallery!</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Jumbo/Jumbo3.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <button type="button" class="mb-5 btn btn-light text-primary" id="jumbo_spacing">Explore Projects</button>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<p></p>
+</div>
+</div>
+  <!-- Content here -->
+  <div class="container bg-light">
+    <div class="row">
+      <div class="col" >
+        <img src="icons/website.png" id="colour_Box" width=100% alt="">
+        <p class="text-center py-2" id="text_color_Main">Websites</p>
+      </div>
+      <div class="col" >
+        <img src="icons/ent.png" id="colour_Box" width=100% alt="">
+        <p class="text-center py-2" id="text_color_Main">Entertainment</p>
+      </div>
+      <div class="col" >
+        <img src="icons/games.png" id="colour_Box" width=100% alt="">
+        <p class="text-center py-2" id="text_color_Main">Games</p>
+      </div>
+      <div class="col d-none d-sm-block" >
+        <img src="icons/music.png" id="colour_Box" width=100% alt="">
+        <p class="text-center py-2" id="text_color_Main">Music</p>
+      </div>
+      <div class="col d-none d-sm-block" >
+        <img src="icons/VR.png" id="colour_Box" width=100% alt="">
+        <p class="text-center py-2" id="text_color_Main">VR</p>
+              </div>
+                  </div>
+                  <div class="d-block d-sm-none">
+        <div class="row px-5">
+          <div class="col d-block" >
+            <img src="icons/music.png" id="colour_Box" width=100% alt="">
+            <p class="text-center" id="text_color_Main">Music</p>
+          </div>
+          <div class="col d-block" >
+            <img src="icons/VR.png" id="colour_Box" width=100% alt="">
+            <p class="text-center" id="text_color_Main">VR</p>
+                  </div>
+        </div>
+                  </div>
+                  <hr>
+                                          <!-- Only PC -->
+                                          <h1 class="d-none d-sm-block display-3 text-center py-2" id="text_color_Main">Introduction</h1>
+                                          <!-- Only Mobile -->
+                                          <h1 class="d-block d-sm-none display-3 text-center py-2" id="text_color_Main">Introduction</h1>
+                  <div class="project_box">
+                  <p class="text-justify mx-3" id="introduction">Bringing you websites, experiences and entertainment from Melbourne! We all have ideas of our own, some we like to share and own. The Abhik is a web platform for all,  that includes businesses, customers
+                    and for students. Lets achieve the level of satsifcation that you have set and accomplish the milestone together! </p>
+                  </div>
+                    <hr>
+                    <div class="row">
+                      <div class="col-10-pl-5 col-sm-5">
+                        <img src="Illustration/31.png" id="img_borders" width=100% alt="">
+                      </div>
+                      <div class="col">
+                        <!-- Only PC -->
+                        <h1 class="d-none d-sm-block display-3 text-justify py-2" id="text_color_Main">Graphics</h1>
+                        <!-- Only Mobile -->
+                        <h1 class="d-block d-sm-none display-3 text-center py-2" id="text_color_Main">Graphics</h1>
+                        <div class="project_box">
+                        <p class="text-justify" id="introduction">Our graphics section brings you illustrations, portraits and logos.
+                          Shoot us a message through our website or simply through Facebook and Instagram. Once, we are done with your
+                          design we send your designs with variations and as a bonus also including the project file.
+                          Our pricing and bonuses are all inclusive of just $28.50! (Black and White is FREE!). Check out our graphics here!
+                          </p>
+                          <a href="https://facebook.com"><i class="fab fa-facebook-f pl-3 " id="icons"></i></a>
+                          <a href="https://instagram.com"><i class="fab fa-instagram pl-3" id="icons"></i></a>
+                          <a href="https://google.com"><i class="fab fa-google pl-3" id="icons"></i></a>
+                          <a href="gallery.html"><button" class="btn btn-primary btn-lg float-right mr-3">Browse Graphics</button></a>
+                        </div>
+                      </div>
+                    </div>
+                                          <hr>
+                                          <p></p>
+                                          <div class="row">
+                                            <div class="col">
+                                              <!-- Only PC -->
+                                              <h1 class="d-none d-sm-block display-3 text-justify py-2" id="text_color_Main">Websites</h1>
+                                              <!-- Only Mobile -->
+                                              <h1 class="d-block d-sm-none display-3 text-center py-2" id="text_color_Main">Websites</h1>
+                                              <div class="project_box">
+                                              <p class="text-justify" id="introduction">Our website section has your portfolio, personal and educational
+                                                and business platoforms covered.
+                                                A sketch is drawn for your site followed by a UX design, once you are happy with the design -
+                                                all the features are added to your site through the latest frameworks. Our sites are user friendly
+                                                all gifs, photos and codes are well optimized for all devices including mobiles and tablets.
+                                                Contact us today! Check out our website ideas here!
+                                                </p>
+                                                <a href="https://facebook.com"><i class="fab fa-facebook-f pl-3 " id="icons"></i></a>
+                                                <a href="https://instagram.com"><i class="fab fa-instagram pl-3" id="icons"></i></a>
+                                                <a href="https://google.com"><i class="fab fa-google pl-3" id="icons"></i></a>
+                                                <a href="gallery.html"><button type="button" class="btn btn-primary btn-lg float-right mr-3">Browse Websites</button></a>
+                                              </div>
+                                            </div>
+                                            <div class="col-10-pl-5 col-sm-5">
+                                              <img class="my-3" src="demo/web_demo.png" width=100% alt="">
+                                            </div>
+                                          </div>
+                                          <hr>
+                                          <div class="row">
+                                            <div class="col-10-pl-5 col-sm-5">
+                                              <img src="Illustration/03.png" id="img_borders" width=100% alt="">
+                                            </div>
+                                            <div class="col">
+                                              <div class="project_box">
+                                              <!-- Only PC -->
+                                              <h1 class="d-none d-sm-block display-3 text-justify py-2" id="text_color_Main">Games</h1>
+                                              <!-- Only Mobile -->
+                                              <h1 class="d-block d-sm-none display-3 text-center py-2" id="text_color_Main">Games</h1>
+                                              <p class="text-justify" id="introduction">Our games section brings you action, platformer and shooter genres.
+                                                Our recent works are Doughouse, Knight 2050, Doughnut Boy and Liminal Seasons. The games are available for
+                                                PC and mobile devices(Android/iOS). Our demos are available via the site and previews on Youtube. Be sure
+                                                to check our website for early accsess and big deals on our games. Also available on Steam.
+                                                </p>
+                                                <a href="https://facebook.com"><i class="fab fa-facebook-f pl-3 " id="icons"></i></a>
+                                                <a href="https://instagram.com"><i class="fab fa-instagram pl-3" id="icons"></i></a>
+                                                <a href="https://google.com"><i class="fab fa-google pl-3" id="icons"></i></a>
+                                                <a href="https://youtubecom"><i class="fab fa-youtube pl-3" id="icons"></i></a>
+                                                <a href="gallery.html"><button type="button" class="btn btn-primary btn-lg float-right mr-3">Browse Games</button></a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                                                <hr>
+                                                              <div class="row text-justify" id="Feature_Box">
+                                                                <div class="col">
+                                                                  <img class="pt-2" src="icons/TheAbhik.png" width=35% alt="">
+                                                                  <p class="text-white">&copy;2019 TheAbhik.com<p>
+                                                                </div>
+                                                                <div class="col pt-2 text-center">
+                                                                  <h3 id="text_white"><i class="fas fa-phone-volume pr-2"></i>Contact</h3>
+                                                                  <p id="text_white"><i class="far fa-envelope pr-2"></i>theabhikshrestha@gmail.com</p>
+                                                                  <p id="text_white"><i class="fas fa-phone-square-alt pr-2"></i>+610406370076</p>
+                                                                  <div class="text-center">
+                                                                    <a href="https://facebook.com"><i class="fab fa-facebook-f pl-3 text-white"></i></a>
+                                                                    <a href="https://instagram.com"><i class="fab fa-instagram pl-3 text-white"></i></a>
+                                                                    <a href="https://google.com"><i class="fab fa-google pl-3 text-white" ></i></a>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="col pt-2 text-center d-none d-sm-block">
+                                                                  <h3 id="text_white">Browse</h3>
+                                                                  <p></p>
+                                                                    <a class="text-white pl-4" href="gallery.html"><i class="fas fa-photo-video pr-2"></i>Gallery</a>
+                                                                    <p></p>
+                                                                    <a class="text-white pl-4" href="projects.html"><i class="fas fa-briefcase pr-2"></i>Projects</a>
+                                                                    <p></p>
+                                                                </div>
+                                                              </div>
+                                        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
