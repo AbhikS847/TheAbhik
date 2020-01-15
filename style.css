@@ -1,0 +1,102 @@
+body{
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+ul{
+  font-size: 18px;
+}
+#Bold_Abhik{
+  font-weight:bold;
+  letter-spacing: 5px;
+}
+#colour_Box{
+  background: rgb(55,179,203);
+background: linear-gradient(313deg, rgba(55,179,203,1) 19%, rgba(0,92,194,1) 71%);
+  padding-top:3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: : 3px;
+  border-radius: 20px;
+}
+#introduction{
+  font-size:18px;
+  background: linear-gradient(313deg, rgba(55,179,203,1) 19%, rgba(0,92,194,1) 71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jumbotron.jumbotron-fluid{
+  background: rgb(55,179,203);
+background: linear-gradient(313deg, rgba(55,179,203,1) 19%, rgba(0,92,194,1) 71%);
+  padding-top:3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: : 3px;
+}
+.list-group-item.active{
+  background: rgb(55,179,203);
+background: linear-gradient(313deg, rgba(55,179,203,1) 19%, rgba(0,92,194,1) 71%);
+}
+#Feature_Box{
+  background: rgb(55,179,203);
+background: linear-gradient(313deg, rgba(55,179,203,1) 19%, rgba(0,92,194,1) 71%);
+}
+#text_color_Main{
+background: linear-gradient(313deg, rgba(55,179,203,1) 19%, rgba(0,92,194,1) 71%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 600;
+}
+#text_white{
+  color:#FFFFFF;
+}
+#img_borders{
+  border: 10px solid;
+  border-image-source:linear-gradient(6deg, rgba(232,232,232,1) 24%, rgba(255,255,255,1) 81%);
+  border-image-slice: 1;
+}
+#highlights{
+  font-weight: 600;
+}
+#icons{
+  font-size:30px;
+  background: linear-gradient(313deg, rgba(55,179,203,1) 19%, rgba(0,92,194,1) 71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+#jumbo_spacing{
+  margin-left: 150px;;
+}
+#horizontal_ul{
+	min-width: 696px;
+	list-style: none;
+  padding-top: 20px;
+}
+	#horizontal_li {
+		display: inline;
+  }
+  #Blue_Gallery{
+    background: linear-gradient(313deg, rgba(55,179,203,1) 19%, rgba(0,92,194,1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+
+#mobile_padding{
+  padding-top: 10px;
+}
+
+.project_box{
+  background: rgb(255,255,255);
+  background: linear-gradient(6deg, rgba(255,255,255,1) 25%, rgba(232,232,232,1) 95%);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#img_borders{
+  border: 10px solid;
+  border-image-source:linear-gradient(6deg,  rgba(55,179,203,1) 19%, 24%, rgba(0,92,194,1) 81%);
+  border-image-slice: 1;
+}
