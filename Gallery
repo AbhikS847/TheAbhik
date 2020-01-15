@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bcb3ada139.js" crossorigin="anonymous"></script>
+    
+    <title>The Abhik</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#" id="text_color_Main">The Abhik</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto px-5">
+      <li class="nav-item active">
+        <a class="nav-link px-5 text-primary" href="gallery.html"><i class="fas fa-photo-video pr-2"></i>Gallery <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-5 text-secondary" href="home.html"><i class="fas fa-home pr-2"></i>Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-5 text-secondary" href="projects.html"><i class="fas fa-briefcase pr-2"></i>Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-5 text-secondary" href="contact.html"><i class="far fa-envelope pr-2"></i>Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search something...." aria-label="search">
+      <button class="btn btn-outline-primary my-2 my-sm-0 text-center justify-content:" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<p></p>
+</div>
+</div>
+  <!-- Content here -->
+  <div class="container">
+    <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Graphics</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Website</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">TV</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Games</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-music" role="tab" aria-controls="music">Music</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-vr" role="tab" aria-controls="vr">VR</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"><h1 id="Blue_Gallery">Graphics</h1>
+            <p class="text-justify pr-2" id="Blue_Gallery">The Graphics section has your Illustrations, Logos and Portraits covered. Browse our 
+                our Gallery and have your personal, business and private requirments sorted. If you would like to request a 
+                design contact us! 
+            </p>
+        <hr>
+        <p class="text-center" id="Blue_Gallery">Steps included in the contact section of our page.</p>
+        <button type="button" class="btn btn-primary text- btn-lg btn-block"><a class="text-white" href="contact.html">Request graphics</a></button>
+        <div class="btn"></div>
+        <div class="row">
+          <div class="col-8">
+            <div class="list-group list-group-horizontal" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-ass-list" data-toggle="list" href="#list-ass" role="tab" aria-controls="ass">Illustrations</a>
+              <a class="list-group-item list-group-item-action" id="list-ass2-list" data-toggle="list" href="#list-ass2" role="tab" aria-controls="ass2">Portraits</a>
+            </div>
+          </div>
+          <div class="col-11">
+            <p></p>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-ass" role="tabpanel" aria-labelledby="list-ass-list">
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/34.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/33.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/32.png" width=100% alt=""></div>
+                </div>
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/04.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/05.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/06.png" width=100% alt=""></div>
+                </div>
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/07.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/08.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/09.png" width=100% alt=""></div>
+                </div>
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/01.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/02.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/03.png" width=100% alt=""></div>
+                </div>
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/14.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/15.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/16.png" width=100% alt=""></div>
+                </div>
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/17.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/18.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/19.png" width=100% alt=""></div>
+                </div>
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/28.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/29.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/31.png" width=100% alt=""></div>
+                </div>
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/27.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/24.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/26.png" width=100% alt=""></div>
+                </div>
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/20.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/25.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/22.png" width=100% alt=""></div>
+                </div>
+                <div class="row">
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/13.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/11.png" width=100% alt=""></div>
+                  <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Illustration/12.png" width=100% alt=""></div>
+                </div>
+                <a href="gallery.html">Back to top</a>
+              </div>
+              <div class="tab-pane fade" id="list-ass2" role="tabpanel" aria-labelledby="list-ass2-list">                
+                <div class="row">
+                <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Portraits/11.png" width=100% alt=""></div>
+                <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Portraits/09.png" width=100% alt=""></div>
+                <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Portraits/08.png" width=100% alt=""></div>
+              </div>
+              <div class="row">
+                <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Portraits/10.png" width=100% alt=""></div>
+                <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Portraits/06.png" width=100% alt=""></div>
+                <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Portraits/12.png" width=100% alt=""></div>
+              </div>
+              <div class="row">
+                <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Portraits/07.png" width=100% alt=""></div>
+                <div class="col-11-pt-5 col-sm-4" id="mobile_padding"><img src="Portraits/05.png" width=100% alt=""></div>
+              </div>
+              <a href="gallery.html">Back to top</a></div>
+            </div>
+          </div>
+        </div>
+    </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"><h1 id="Blue_Gallery">Websites</h1>
+                <p class="text-justify pr-2" id="Blue_Gallery">The Websites section has your Personal, Portfolio and Business sites covered. Browse our 
+                    our Gallery and have your sketch and UX done. Once you are happy with your design - we deploy your site and launch
+                </p>
+            <hr>
+            <p class="text-center" id="Blue_Gallery">Steps included in the contact section of our page.</p>
+            <button type="button" class="btn btn-primary text- btn-lg btn-block"><a class="text-white" href="contact.html">Request Website</a></button>
+            <div class="btn"></div>
+            <p class="text-center" id="Blue_Gallery">Adding final touches to content comming soon....</p>
+          </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"><h1 id="Blue_Gallery">TV</h1>
+                <p class="text-justify pr-2" id="Blue_Gallery">The TV section has your series, shorts and animations covered. Browse our 
+                    our Gallery and have a great time! Leave us a comment and if you've enjoyed it, give us a like and share.
+                    Leave us a text if you need any GIFS or animations. 
+                </p>
+            <hr>
+            <p class="text-center" id="Blue_Gallery">Steps included in the contact section of our page.</p>
+            <button type="button" class="btn btn-primary text- btn-lg btn-block"><a class="text-white" href="contact.html">Request anims</a></button>
+            <div class="btn"></div>
+            <p class="text-center" id="Blue_Gallery">Adding final touches to content comming soon....<i class="d-block fas fa-cog fa-spin"></i></p>
+          </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"><h1 id="Blue_Gallery">Games</h1>
+                <p class="text-justify pr-2" id="Blue_Gallery">The games section has your PC, android and iOS covered. Browse our 
+                    our Gallery and try them! Leave us a comment and if you've enjoyed it, give us a like and share.
+                    Leave us a text if you want to build your own game.
+                </p>
+            <hr>
+            <p class="text-center" id="Blue_Gallery">Steps included in the contact section of our page.</p>
+            <button type="button" class="btn btn-primary text- btn-lg btn-block"><a class="text-white" href="contact.html">Request Games</a></button>
+            <div class="btn"></div>
+            <div class="row">
+              <div class="col-10-pl-5 col-sm-5">
+                <img src="Illustration/06.png" id="img_borders" width=100% alt="">
+              </div>
+              <div class="col">
+                <!-- Only PC -->
+                <h4 class="d-none d-sm-block text-justify py-2" id="text_color_Main">Doughhouse</h4>
+                <!-- Only Mobile -->
+                <h4 class="d-block d-sm-none text-center py-2" id="text_color_Main">Doughouse</h4>
+                <p class="text-justify" id="introduction">Good dogs and bad dogs, there's no telling when they are
+                  going to rough up one another at an outback steakhouse. Straighten up those pugs and bulldogs! They 
+                  don't play fetch they game! 
+                  </p>
+                  <a href="https://facebook.com"><i class="fab fa-facebook-f pl-3 " id="icons"></i></a>
+                  <a href="https://instagram.com"><i class="fab fa-instagram pl-3" id="icons"></i></a>
+                  <a href="https://google.com"><i class="fab fa-google pl-3" id="icons"></i></a>
+                  <button type="button" class="btn btn-primary btn-md float-right mr-3">Trailer</button>
+                  <hr>
+              </div>
+              <div class="col-10-pl-5 col-sm-5">
+                <img src="Illustration/33.png" id="img_borders" width=100% alt="">
+              </div>
+              <div class="col">
+                <!-- Only PC -->
+                <h4 class="d-none d-sm-block text-justify py-2" id="text_color_Main">Knight 2050</h4>
+                <!-- Only Mobile -->
+                <h4 class="d-block d-sm-none text-center py-2" id="text_color_Main">Knight 2050</h4>
+                <p class="text-justify" id="introduction">Medieval ages set in the 2050. Pick your faction,
+                  have your share of the future and restore civilization the way you see fit. Almost an open
+                  world RPG game but with a sandbox twist.
+                  </p>
+                  <a href="https://facebook.com"><i class="fab fa-facebook-f pl-3 " id="icons"></i></a>
+                  <a href="https://instagram.com"><i class="fab fa-instagram pl-3" id="icons"></i></a>
+                  <a href="https://google.com"><i class="fab fa-google pl-3" id="icons"></i></a>
+                  <button type="button" class="btn btn-primary btn-md float-right mr-3">Trailer</button>
+                  <hr>
+              </div>
+            </div>
+            <img src="EXP/0b.png" width=100% alt="">
+            <div class="row">
+              <div class="col-10-pl-5 col-sm-5">
+                <img src="Illustration/32.png" id="img_borders" width=100% alt="">
+              </div>
+              <div class="col">
+                <!-- Only PC -->
+                <h4 class="d-none d-sm-block text-justify py-2" id="text_color_Main">Doughhnut Boy</h4>
+                <!-- Only Mobile -->
+                <h4 class="d-block d-sm-none text-center py-2" id="text_color_Main">Doughnut Boy</h4>
+                <p class="text-justify" id="introduction">Deliver the dougnuts and avoid the obstacles! Poppy's
+                  doughnuts is fighting for the first place in New West Oak part of town. Be sure to get those 
+                  upgrades for the restaurant!
+                  </p>
+                  <a href="https://facebook.com"><i class="fab fa-facebook-f pl-3 " id="icons"></i></a>
+                  <a href="https://instagram.com"><i class="fab fa-instagram pl-3" id="icons"></i></a>
+                  <a href="https://google.com"><i class="fab fa-google pl-3" id="icons"></i></a>
+                  <button type="button" class="btn btn-primary btn-md float-right mr-3">Trailer</button>
+                  <hr>
+              </div>
+              <img src="EXP/0d.png" width=100% alt="">
+              <div class="col-10-pl-5 col-sm-5">
+                <img src="Illustration/03.png" id="img_borders" width=100% alt="">
+              </div>
+              <div class="col">
+                <!-- Only PC -->
+                <h4 class="d-none d-sm-block text-justify py-2" id="text_color_Main">Dark Waters</h4>
+                <!-- Only Mobile -->
+                <h4 class="d-block d-sm-none text-center py-2" id="text_color_Main">Dark Waters</h4>
+                <p class="text-justify" id="introduction">Explore these waters, find your beloved and 
+                  banish the trecherous. Be weary of leaving attachments with each memory, they can be 
+                  relived but will not alter that has been done.
+                  </p>
+                  <a href="https://facebook.com"><i class="fab fa-facebook-f pl-3 " id="icons"></i></a>
+                  <a href="https://instagram.com"><i class="fab fa-instagram pl-3" id="icons"></i></a>
+                  <a href="https://google.com"><i class="fab fa-google pl-3" id="icons"></i></a>
+                  <button type="button" class="btn btn-primary btn-md float-right mr-3">Trailer</button>
+                  <hr>
+              </div>
+          </div>
+        </div>
+            <div class="tab-pane fade" id="list-music" role="tabpanel" aria-labelledby="list-music-list"><h1 id="Blue_Gallery">Music</h1>
+                <p class="text-justify pr-2" id="Blue_Gallery">The music section has your songs, instrumentals and bg-music covered. Browse our 
+                    our Gallery and have a listen. Leave us a comment and if you've enjoyed it, give us a like and share.
+                    Leave us a text if you want to compose your own music.
+                </p>
+            <hr>
+            <p class="text-center" id="Blue_Gallery">Steps included in the contact section of our page.</p>
+            <button type="button" class="btn btn-primary text- btn-lg btn-block"><a class="text-white" href="contact.html">Request Music</a></button>
+            <div class="btn"></div>
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/ttI19aS3FWc' frameborder='0' allowfullscreen></iframe></div>
+            <p></p>
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/7KcnZeEgDmQ' frameborder='0' allowfullscreen></iframe></div>
+            <p></p>
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/mSS_oNXkYwM' frameborder='0' allowfullscreen></iframe></div>
+            <p></p>
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Sa2ZxKe_ocs' frameborder='0' allowfullscreen></iframe></div>
+          </div>
+            <div class="tab-pane fade" id="list-vr" role="tabpanel" aria-labelledby="list-vr-list"><h1 id="Blue_Gallery" >VR</h1>
+              
+                <p class="text-justify pr-2" id="Blue_Gallery">The VR section has your games, experiences and apps covered. Browse our 
+                    our Gallery and have your pick. Leave us a comment and if you've enjoyed it, give us a like and share.
+                    Leave us a text if you want to build your own VR app.
+                </p>
+            <hr>
+            <p class="text-center" id="Blue_Gallery">Steps included in the contact section of our page.</p>
+            <button type="button" class="btn btn-primary text- btn-lg btn-block"><a class="text-white" href="contact.html">Request VR</a></button>
+            <div class="btn"></div>
+            <h1 id="Blue_Gallery">Liminal Seasons</h1>
+            <p></p>
+            <p></p>
+          <img src="VR/vr01.JPG" id="img_borders" width=100% alt="">
+          <p></p>
+          <img src="VR/vr02.JPG" id="img_borders" width=100% alt="">
+          <p></p>
+          <p class="text-justify" id="Blue_Gallery">Walk through forests all Autumn and Winter! In addition to the two demo 
+            sequences there are over 12 different variations of forests and jungles for the season pass. Taken up as a project
+            for Liminal VR, this app has evolved into more than just an experience. 
+          </p >
+          <img src="VR/vr03.JPG" id="img_borders" width=100% alt="">
+          <p></p>
+          <img src="VR/vr04.JPG" id="img_borders" width=100% alt="">
+          <p></p>
+          <p class="text-justify" id="Blue_Gallery">Here's the first build.
+          </p>
+          <p></p>
+          <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/AtsQc5oYYTQ' frameborder='0' allowfullscreen></iframe></div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+                                                                <hr>
+                                                              <div class="row text-justify" id="Feature_Box">
+                                                                <div class="col">
+                                                                  <img class="pt-2" src="icons/TheAbhik.png" width=35% alt="">
+                                                                  <p class="text-white">&copy;2019 TheAbhik.com<p>
+                                                                </div>
+                                                                <div class="col pt-2 text-center">
+                                                                  <h3 id="text_white"><i class="fas fa-phone-volume pr-2"></i>Contact</h3>
+                                                                  <p id="text_white"><i class="far fa-envelope pr-2"></i>theabhikshrestha@gmail.com</p>
+                                                                  <p id="text_white"><i class="fas fa-phone-square-alt pr-2"></i>+610406370076</p>
+                                                                  <div class="text-center">
+                                                                    <a href="https://facebook.com"><i class="fab fa-facebook-f pl-3 text-white"></i></a>
+                                                                    <a href="https://instagram.com"><i class="fab fa-instagram pl-3 text-white"></i></a>
+                                                                    <a href="https://google.com"><i class="fab fa-google pl-3 text-white" ></i></a>
+                                                                  </div>
+                                                                </div>
+                                                                <div class="col pt-2 text-center d-none d-sm-block">
+                                                                  <h3 id="text_white">Browse</h3>
+                                                                  <p></p>
+                                                                    <a class="text-white pl-4" href="gallery.html"><i class="fas fa-photo-video pr-2"></i>Gallery</a>
+                                                                    <p></p>
+                                                                    <a class="text-white pl-4" href="projects.html"><i class="fas fa-briefcase pr-2"></i>Projects</a>
+                                                                    <p></p>
+                                                                </div>
+                                                              </div>
+                                        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
